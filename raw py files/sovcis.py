@@ -15,9 +15,6 @@ PIREP10 = "PIREP Slot Empty"
 def menu():
     import time
     global PIREP1, PIREP2, PIREP3, PIREP4, PIREP5, PIREP6, PIREP7, PIREP8, PIREP9, PIREP10
-    print("")
-    print("")
-    print("")
     print("SO VCIS")
     print("Virtual Controlling Information System")
     print("Made by SO")
@@ -178,7 +175,11 @@ def pirep():
         remarks = input("Remarks: ")
         if report == "Routine":
             report = "UA "
+        elif report == "routine":
+            report = "UA "
         elif report == "Urgent":
+            report = "UUA "
+        elif report == "urgent":
             report = "UUA "
         if saident != "":
             ident = saident + " "
