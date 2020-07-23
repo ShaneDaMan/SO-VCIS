@@ -185,14 +185,24 @@ def pirep():
             ident = saident + " "
         if location != "":
             loc = "/OV " + location
+        else:
+            loc = ""
         if time != "":
             ti = "/TM " + time
+        else:
+            ti = ""
         if altitude != "":
             alt = "/" + altitude
+        else:
+            alt = ""
         if type != "":
             actype = "/TP " + type
+        else:
+            actype = ""
         if sky != "":
             skyc = "/SK " + sky
+        else:
+            skyc = ""
         if vis != "":
             visi = "/WX " + vis
         else:
