@@ -6,5 +6,7 @@ Thank you for using SO's VCIS. This system will store PIREPs and more in the fut
 
 Changelog
 
-Alpha v1.0 - 7/22/2020
+v1.0 - 7/22/2020
 	Initial version - PIREP system
+v2.0 - 7/24/2020
+	Added command system
